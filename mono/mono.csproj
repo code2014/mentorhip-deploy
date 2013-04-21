@@ -55,12 +55,15 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="MySql.Data">
       <HintPath>bin\MySql.Data.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="MySql.Data.Entity">
       <HintPath>bin\MySql.Data.Entity.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="MySql.Web">
       <HintPath>bin\MySql.Web.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Configuration" />
