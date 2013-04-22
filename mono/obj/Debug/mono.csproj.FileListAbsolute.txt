@@ -1,0 +1,14 @@
+C:\Users\Pi\Documents\GitHub\mentorhip\mono copy\mono\bin\mono.dll
+C:\Users\Pi\Documents\GitHub\mentorhip\mono copy\mono\bin\mono.pdb
+C:\Users\Pi\Documents\GitHub\mentorhip\mono copy\mono\obj\Debug\mono.dll
+C:\Users\Pi\Documents\GitHub\mentorhip\mono copy\mono\obj\Debug\mono.pdb
+C:\Users\Suhan\Documents\GitHub\mentorhip\latest\mono\bin\mono.dll
+C:\Users\Suhan\Documents\GitHub\mentorhip\latest\mono\bin\mono.pdb
+C:\Users\Suhan\Documents\GitHub\mentorhip\latest\mono\obj\Debug\mono.csprojResolveAssemblyReference.cache
+C:\Users\Suhan\Documents\GitHub\mentorhip\latest\mono\obj\Debug\mono.dll
+C:\Users\Suhan\Documents\GitHub\mentorhip\latest\mono\obj\Debug\mono.pdb
+C:\Users\Pi\Documents\GitHub\mentorhip\latest\mono\bin\mono.dll
+C:\Users\Pi\Documents\GitHub\mentorhip\latest\mono\bin\mono.pdb
+C:\Users\Pi\Documents\GitHub\mentorhip\latest\mono\obj\Debug\mono.dll
+C:\Users\Pi\Documents\GitHub\mentorhip\latest\mono\obj\Debug\mono.pdb
+C:\Users\Pi\Documents\GitHub\mentorhip\latest\mono\obj\Debug\mono.csprojResolveAssemblyReference.cache
