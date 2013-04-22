@@ -5,7 +5,7 @@
         <!--Carousel-->
           <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner ">
-              <div class="item active"><a href="#"><img src="assets/img/carousel/show.jpg" alt="" /></a></div>
+              <a href="#"><img src="assets/img/carousel/show.jpg" alt="" /></a>
              <!-- <div class="item"><a href="#"><img src="assets/img/carousel/show.jpg" alt="" /></a></div>
               <div class="item"><a href="#"><img src="assets/img/carousel/show.jpg" alt="" /></a></div>
               <div class="item"><a href="#"><img src="assets/img/carousel/show.jpg" alt="" /></a></div>

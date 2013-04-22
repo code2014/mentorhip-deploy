@@ -38,8 +38,8 @@
 /*#carouselBlk,#header{background: url(assets/headerRepeat.png) repeat-x 0 0 #f7f7f7;}*/
 /*#myCarousel .carousel-caption{display:none;}*/
 #myCarousel{text-align:center; margin-bottom:0}
-#myCarousel .item img{width:100%; height:100%;}
-#myCarousel .carousel .item {-webkit-transition: opacity 2s; -moz-transition: opacity 2s; -ms-transition: opacity 2s; -o-transition: opacity 2s; transition: opacity 2s;}
+#myCarousel img{width:100%; height:100%;}
+/*#myCarousel .carousel .item {-webkit-transition: opacity 2s; -moz-transition: opacity 2s; -ms-transition: opacity 2s; -o-transition: opacity 2s; transition: opacity 2s;}*/
 #myCarousel .carousel .active.left {left:0;opacity:0;z-index:2;}
 #myCarousel .carousel .next {left:0;opacity:1;z-index:1;}
 #myCarousel .navbar-inner {padding-left: 0;padding-right: 0;}
