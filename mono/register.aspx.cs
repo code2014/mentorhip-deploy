@@ -1,7 +1,7 @@
-
+using System.Web.UI;
 namespace mono
 {
-	public partial class register : System.Web.UI.Page
+	public partial class register : Page
 	{
 	}
 }

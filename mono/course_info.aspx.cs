@@ -1,8 +1,9 @@
 using System;
 using MySql.Data.MySqlClient;
+using System.Web.UI;
 namespace mono
 {
-	public partial class course_info : System.Web.UI.Page
+	public partial class course_info : Page
 	{
 
         string courseID;

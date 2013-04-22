@@ -16,9 +16,10 @@ using System;
 
 
 
+
 namespace mono
 {
-	public partial class Default : System.Web.UI.Page
+	public partial class Default : Page
 	{
 		
 		public void button1Clicked (object sender, EventArgs args)

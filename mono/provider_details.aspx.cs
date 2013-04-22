@@ -1,7 +1,7 @@
-
+using System.Web.UI;
 namespace mono
 {
-	public partial class provider_details : System.Web.UI.Page
+	public partial class provider_details : Page
 	{
 	}
 }

@@ -1,10 +1,11 @@
 using System;
 using System.Web;
 using System.Web.UI.WebControls;
+using System.Web.UI;
 
 namespace mono
 {
-    public partial class Site : System.Web.UI.MasterPage
+    public partial class Site : MasterPage
     {
         // cookie
 

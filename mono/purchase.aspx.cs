@@ -1,7 +1,7 @@
-
+using System.Web.UI;
 namespace mono
 {
-	public partial class purchase : System.Web.UI.Page
+	public partial class purchase : Page
 	{
 	}
 }

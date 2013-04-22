@@ -1,7 +1,7 @@
-
+using System.Web.UI;
 namespace mono
 {
-	public partial class legal_notice : System.Web.UI.Page
+	public partial class legal_notice : Page
 	{
 	}
 }

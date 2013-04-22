@@ -1,9 +1,10 @@
 using MySql.Data.MySqlClient;
 using System.Web;
 using System;
+using System.Web.UI;
 namespace mono
 {
-	public partial class login : System.Web.UI.Page
+	public partial class login : Page
 	{
         protected void signin_Click(object sender, System.EventArgs e)
         {

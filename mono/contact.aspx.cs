@@ -1,7 +1,7 @@
-
+using System.Web.UI;
 namespace mono
 {
-	public partial class contect : System.Web.UI.Page
+	public partial class contect : Page
 	{
 	}
 }
