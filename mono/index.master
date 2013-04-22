@@ -1,6 +1,0 @@
-<%@ Master Language="C#" MasterPageFile="~/Site.master" Inherits="mono.index" %>
-<%@ MasterType VirtualPath="~/Site.master" %>
-<asp:Content ContentPlaceHolderID="contentPlaceHolder" ID="contentPlaceHolderContent" runat="server">
-</asp:Content>
-
-
