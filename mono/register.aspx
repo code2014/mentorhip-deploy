@@ -1,4 +1,4 @@
-<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="register.faq" %>
+<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="mono.register" %>
 
 <asp:Content runat="server" id="BodyContent" ContentPlaceHolderID="contentPlaceHolder">
 <div id="mainBody">
