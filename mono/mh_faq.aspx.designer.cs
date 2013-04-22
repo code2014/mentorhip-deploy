@@ -10,6 +10,6 @@
 namespace mono {
     
     
-    public partial class faq {
+    public partial class mh_faq {
     }
 }

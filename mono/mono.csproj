@@ -76,7 +76,7 @@
     <Content Include="index.aspx">
       <DeployService-Deploy>True</DeployService-Deploy>
     </Content>
-    <Content Include="faq.aspx" />
+    <Content Include="mh_faq.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="course_info.aspx" />
     <Content Include="forgetpass.aspx" />
@@ -224,12 +224,12 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="faq.aspx.cs">
-      <DependentUpon>faq.aspx</DependentUpon>
+    <Compile Include="mh_faq.aspx.cs">
+      <DependentUpon>mh_faq.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="faq.aspx.designer.cs">
-      <DependentUpon>faq.aspx</DependentUpon>
+    <Compile Include="mh_faq.aspx.designer.cs">
+      <DependentUpon>mh_faq.aspx</DependentUpon>
     </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>

@@ -1,4 +1,4 @@
-<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="faq.aspx.cs" Inherits="mono.faq" %>
+<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="mh_faq.aspx.cs" Inherits="mono.mh_faq" %>
 
 <asp:Content runat="server" id="BodyContent" ContentPlaceHolderID="contentPlaceHolder">
 <div class="other_body">
