@@ -1,6 +1,0 @@
-C:\Users\Pi\Documents\GitHub\mentorhip\mono copy\mono\bin\mono.dll
-C:\Users\Pi\Documents\GitHub\mentorhip\mono copy\mono\obj\Release\mono.dll
-C:\Users\Pi\Documents\GitHub\mentorhip\mono copy\mono\obj\Release\mono.csprojResolveAssemblyReference.cache
-C:\Users\Pi\Documents\GitHub\mentorhip\latest\mono\bin\mono.dll
-C:\Users\Pi\Documents\GitHub\mentorhip\latest\mono\obj\Release\mono.csprojResolveAssemblyReference.cache
-C:\Users\Pi\Documents\GitHub\mentorhip\latest\mono\obj\Release\mono.dll

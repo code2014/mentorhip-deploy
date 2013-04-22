@@ -1,1 +1,0 @@
-<%@ Application Inherits="mono.Global" %>
