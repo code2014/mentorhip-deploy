@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0AD2C28D-E136-45DF-BDCC-149739C324A9}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>mono</RootNamespace>
+    <AssemblyName>mono</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="MySql.Data">
+      <HintPath>bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity">
+      <HintPath>bin\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web">
+      <HintPath>bin\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Provider\myservices.aspx" />
+    <Content Include="Provider\profile.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="web.config" />
+    <Content Include="Default.aspx" />
+    <Content Include="Site.master" />
+    <Content Include="index.aspx">
+      <DeployService-Deploy>True</DeployService-Deploy>
+    </Content>
+    <Content Include="faq.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="course_info.aspx" />
+    <Content Include="forgetpass.aspx" />
+    <Content Include="legal_notice.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="purchase.aspx" />
+    <Content Include="provider_details.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="search_provider.aspx" />
+    <Content Include="search_course.aspx" />
+    <Content Include="assets\css\bootstrap-responsive.css" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\expandable.css" />
+    <Content Include="assets\css\extendable.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\ico\email.png" />
+    <Content Include="assets\ico\facebook.png" />
+    <Content Include="assets\ico\icon.png" />
+    <Content Include="assets\ico\lines.png" />
+    <Content Include="assets\ico\rss.png" />
+    <Content Include="assets\ico\search.png" />
+    <Content Include="assets\ico\thumbnails.png" />
+    <Content Include="assets\ico\twitter.png" />
+    <Content Include="assets\ico\youtube.png" />
+    <Content Include="assets\img\Provider\gma.jpg" />
+    <Content Include="assets\img\Provider\kumon.jpg" />
+    <Content Include="assets\img\Provider\northparkdistrict.jpg" />
+    <Content Include="assets\img\Provider\worldsoccer.jpg" />
+    <Content Include="assets\img\carousel\1.jpg" />
+    <Content Include="assets\img\carousel\10.jpg" />
+    <Content Include="assets\img\carousel\11.jpg" />
+    <Content Include="assets\img\carousel\2.jpg" />
+    <Content Include="assets\img\carousel\3.jpg" />
+    <Content Include="assets\img\carousel\4.jpg" />
+    <Content Include="assets\img\carousel\5.jpg" />
+    <Content Include="assets\img\carousel\6.jpg" />
+    <Content Include="assets\img\carousel\7.jpg" />
+    <Content Include="assets\img\carousel\8.jpg" />
+    <Content Include="assets\img\carousel\9.jpg" />
+    <Content Include="assets\img\carousel\couple3-476dd6f29efda0e2f53256de92cf50b4.jpg" />
+    <Content Include="assets\img\carousel\logo.png" />
+    <Content Include="assets\img\carousel\mom.jpg" />
+    <Content Include="assets\img\categories\1.jpg" />
+    <Content Include="assets\img\categories\2.jpg" />
+    <Content Include="assets\img\categories\3.jpg" />
+    <Content Include="assets\img\categories\4.jpg" />
+    <Content Include="assets\img\categories\5.jpg" />
+    <Content Include="assets\img\categories\6.jpg" />
+    <Content Include="assets\img\categories\EYSA-4.jpg" />
+    <Content Include="assets\img\categories\Kids-doing-Crafts.jpg" />
+    <Content Include="assets\img\categories\KidsPlayingPiano-300.jpg" />
+    <Content Include="assets\img\categories\gda.jpg" />
+    <Content Include="assets\img\categories\images.jpg" />
+    <Content Include="assets\img\categories\kayaking.jpg" />
+    <Content Include="assets\img\categories\mom.jpg" />
+    <Content Include="assets\img\categories\Old Pics\1.jpg" />
+    <Content Include="assets\img\categories\Old Pics\2.jpg" />
+    <Content Include="assets\img\categories\Old Pics\3.jpg" />
+    <Content Include="assets\img\categories\Old Pics\4.jpg" />
+    <Content Include="assets\img\categories\Old Pics\5.jpg" />
+    <Content Include="assets\img\categories\Old Pics\6.jpg" />
+    <Content Include="assets\img\class\1.jpg" />
+    <Content Include="assets\img\class\2.jpg" />
+    <Content Include="assets\img\class\3.jpg" />
+    <Content Include="assets\img\class\4.jpg" />
+    <Content Include="assets\img\class\5.jpg" />
+    <Content Include="assets\img\class\6.jpg" />
+    <Content Include="assets\img\img_icon\glyphicons-halflings-white.png" />
+    <Content Include="assets\img\img_icon\glyphicons-halflings.png" />
+    <Content Include="assets\img\lightbox\Close.png" />
+    <Content Include="assets\img\lightbox\lightbox-blank.gif" />
+    <Content Include="assets\img\lightbox\lightbox-btn-close.gif" />
+    <Content Include="assets\img\lightbox\lightbox-btn-next.gif" />
+    <Content Include="assets\img\lightbox\lightbox-btn-prev.gif" />
+    <Content Include="assets\img\lightbox\lightbox-ico-loading.gif" />
+    <Content Include="assets\jquery\jRating.jquery.css" />
+    <Content Include="assets\jquery\jRating.jquery.js" />
+    <Content Include="assets\jquery\jRating.jquery.min.js" />
+    <Content Include="assets\jquery\jquery.js" />
+    <Content Include="assets\jquery\icons\bg_jRatingInfos.png" />
+    <Content Include="assets\jquery\icons\small.png" />
+    <Content Include="assets\jquery\icons\stars.png" />
+    <Content Include="assets\js\bootshop.js" />
+    <Content Include="assets\js\bootstrap-alert.js" />
+    <Content Include="assets\js\bootstrap-button.js" />
+    <Content Include="assets\js\bootstrap-carousel.js" />
+    <Content Include="assets\js\bootstrap-collapse.js" />
+    <Content Include="assets\js\bootstrap-dropdown.js" />
+    <Content Include="assets\js\bootstrap-modal.js" />
+    <Content Include="assets\js\bootstrap-popover.js" />
+    <Content Include="assets\js\bootstrap-scrollspy.js" />
+    <Content Include="assets\js\bootstrap-tab.js" />
+    <Content Include="assets\js\bootstrap-tooltip.js" />
+    <Content Include="assets\js\bootstrap-transition.js" />
+    <Content Include="assets\js\bootstrap-typeahead.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="assets\js\jquery.lightbox-0.5.js" />
+    <Content Include="assets\js\less.js" />
+    <Content Include="assets\js\google-code-prettify\prettify.css" />
+    <Content Include="assets\js\google-code-prettify\prettify.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="imgHandler.ashx.cs">
+      <DependentUpon>imgHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="md5.cs" />
+    <Compile Include="MessageBox.cs" />
+    <Compile Include="Provider\myservices.aspx.cs">
+      <DependentUpon>myservices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Provider\myservices.aspx.designer.cs">
+      <DependentUpon>myservices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Provider\profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Provider\profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MySqlDBUtil.cs" />
+    <Compile Include="Site.master.cs">
+      <DependentUpon>Site.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.master.designer.cs">
+      <DependentUpon>Site.master</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="faq.aspx.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="faq.aspx.designer.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="course_info.aspx.cs">
+      <DependentUpon>course_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="course_info.aspx.designer.cs">
+      <DependentUpon>course_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forgetpass.aspx.cs">
+      <DependentUpon>forgetpass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forgetpass.aspx.designer.cs">
+      <DependentUpon>forgetpass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="legal_notice.aspx.cs">
+      <DependentUpon>legal_notice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="legal_notice.aspx.designer.cs">
+      <DependentUpon>legal_notice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="purchase.aspx.cs">
+      <DependentUpon>purchase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="purchase.aspx.designer.cs">
+      <DependentUpon>purchase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="provider_details.aspx.cs">
+      <DependentUpon>provider_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="provider_details.aspx.designer.cs">
+      <DependentUpon>provider_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="search_provider.aspx.cs">
+      <DependentUpon>search_provider.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search_provider.aspx.designer.cs">
+      <DependentUpon>search_provider.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="search_course.aspx.cs">
+      <DependentUpon>search_course.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search_course.aspx.designer.cs">
+      <DependentUpon>search_course.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties VerifyCodeBehindFields="True" VerifyCodeBehindEvents="True">
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+    <VisualStudio>
+      <FlavorProperties GUID="{349C5851-65DF-11DA-9384-00065B846F21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53896</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="assets\.DS_Store" />
+    <None Include="assets\css\.DS_Store" />
+    <None Include="assets\ico\.DS_Store" />
+    <None Include="assets\ico\icon.ico" />
+    <None Include="assets\img\.DS_Store" />
+    <None Include="assets\img\Provider\.DS_Store" />
+    <None Include="assets\img\carousel\.DS_Store" />
+    <None Include="assets\img\categories\.DS_Store" />
+    <None Include="assets\img\categories\Old Pics\.DS_Store" />
+    <None Include="assets\img\class\.DS_Store" />
+    <None Include="assets\img\img_icon\.DS_Store" />
+    <None Include="assets\img\lightbox\.DS_Store" />
+    <None Include="assets\jquery\.DS_Store" />
+    <None Include="assets\jquery\icons\.DS_Store" />
+    <None Include="assets\js\.DS_Store" />
+    <None Include="assets\php\.DS_Store" />
+    <None Include="assets\php\jRating.php" />
+    <Content Include="imgHandler.ashx" />
+  </ItemGroup>
+</Project>
