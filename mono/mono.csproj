@@ -71,7 +71,9 @@
     <Content Include="Provider\profile.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Provider\service_management.aspx" />
-    <Content Include="web.config" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Site.master" />
     <Content Include="index.aspx">
       <DeployService-Deploy>True</DeployService-Deploy>
