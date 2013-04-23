@@ -172,14 +172,12 @@
                                 <h5>About Provider</h5>
                             </div>
                             <div class="expandable-content1">
-                                <div class="pagination-centered">
-                                    <asp:Image ID="Image_p" runat="server" />
-                                   
+                                <div class="pagination-centered img-polaroid" style="margin-left:10%;">
+                                    <img src="assets/img/provider/strikezone-logo.jpg" alt=""/>   
                                 </div>
-                                <p class="pagination-left">
-                                 
+                                <!--<p class="pagination-left">
                                     <asp:Label ID="p_description" runat="server" Text="Label"></asp:Label>
-                                </p>
+                                </p>-->
                             </div>
                         </div>
                         <div class="expandable-layer1">

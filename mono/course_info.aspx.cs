@@ -25,10 +25,10 @@ namespace mono
 
             string provider_sql = "select img_id, description from user where iduser= ?id";
 
-            p[0].Value = int.Parse(pid);
-            var ds2 = MySqlDBUtil.ExecuteQuery(provider_sql,p);
-            Image_p.ImageUrl = "~/imgHandler.ashx?imID="+ds2.Tables[0].Rows[0]["img_id"].ToString();
-            p_description.Text = ds2.Tables[0].Rows[0]["description"].ToString();
+           // p[0].Value = int.Parse(pid);
+            //var ds2 = MySqlDBUtil.ExecuteQuery(provider_sql,p);
+            //Image_p.ImageUrl = "~/imgHandler.ashx?imID="+ds2.Tables[0].Rows[0]["img_id"].ToString();
+           // p_description.Text = ds2.Tables[0].Rows[0]["description"].ToString();
         }
 
 
