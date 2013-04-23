@@ -5,7 +5,7 @@
         <!--Carousel-->
           <div id="myCarousel" class="carousel slide">
             <div class="carousel-inner ">
-              <a href="#"><img src="show.png" /></a>
+              <a href="#"><asp:Image ID="Image1" runat="server" /></a>
              <!-- <div class="item"><a href="#"><img src="assets/img/carousel/show.jpg" alt="" /></a></div>
               <div class="item"><a href="#"><img src="assets/img/carousel/show.jpg" alt="" /></a></div>
               <div class="item"><a href="#"><img src="assets/img/carousel/show.jpg" alt="" /></a></div>

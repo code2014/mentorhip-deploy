@@ -7,7 +7,7 @@ namespace mono
 
         protected void Page_Load(object sender, EventArgs e)
         {
-          
+            Image1.ImageUrl = "~/imgHandler.ashx?imID=4";
         }
 
 	}
