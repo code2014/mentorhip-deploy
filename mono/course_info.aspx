@@ -15,13 +15,11 @@
                                     <li><a href="#ratings" data-toggle="tab">Ratings</a></li>
                                 </ul>
                                 <div class="tab-content courseTabFixHeight">
-                                    <div class="tab-pane fade active in" id="photo" style="padding:4%">
-
-                                        <div class="span12" >
+                                    <div class="tab-pane fade active in" id="photo">
+                                        <div class="span6 img-polaroid" style="margin-left:26%; margin-bottom:10px;">
                                             <asp:Image ID="Image1" runat="server" />
                                         </div>
-                                        <div class="span12">
-                                            
+                                        <div class="span11">
                                             <asp:Label ID="description" runat="server" Font-Names="verdana"></asp:Label>
                                         </div>
                                     </div>

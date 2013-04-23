@@ -127,7 +127,7 @@
                                     <th>Price</th>
                                 </tr>
                                 <tr >
-                                    <td><a href="course_info.aspx">Soccer</a></td>
+                                    <td><a href="course_info.aspx?detail=6">Soccer</a></td>
                                     <td>Jun. 19 - Jul. 20</td>
                                     <td>Mo,Tu</td>
                                     <td>5:00pm - 7:00pm</td>
@@ -137,7 +137,7 @@
                                     <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
-                                    <td><a href="course_info.aspx">Soccer</a></td>
+                                    <td><a href="course_info.aspx?detail=6">Soccer</a></td>
                                     <td>Jun. 20 - Jul. 30</td>
                                     <td>T,Th,Sat</td>
                                     <td>2:00pm - 4:30pm</td>
@@ -147,7 +147,7 @@
                                     <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$200</a></td>
                                 </tr>
                                 <tr >
-                                    <td><a href="course_info.aspx">Basketball</a></td>
+                                    <td><a href="course_info.aspx?detail=6">Basketball</a></td>
                                     <td>Jun. 19 - Jul. 20</td>
                                     <td>Mo,Tu</td>
                                     <td>5:00pm - 7:00pm</td>
@@ -157,7 +157,7 @@
                                     <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
-                                    <td><a href="course_info.aspx">swimming</a></td>
+                                    <td><a href="course_info.aspx?detail=6">swimming</a></td>
                                     <td>Jun. 19 - Jul. 20</td>
                                     <td>Mo,Tu</td>
                                     <td>5:00pm - 7:00pm</td><td>10+</td>
@@ -166,7 +166,7 @@
                                     <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
-                                    <td><a href="course_info.aspx">Soccer</a></td>
+                                    <td><a href="course_info.aspx?detail=6">Soccer</a></td>
                                     <td>Jun. 19 - Jul. 20</td>
                                     <td>Mo,Tu</td>
                                     <td>5:00pm - 7:00pm</td>
@@ -205,7 +205,7 @@
                                     <th>Price</th>
                                 </tr>
                                 <tr >
-                                    <td><a href="course_info.aspx">Soccer</a></td>
+                                    <td><a href="course_info.aspx?detail=6">Soccer</a></td>
                                     <td>Jun. 19 - Jul. 20</td>
                                     <td>Mo,Tu</td>
                                     <td>5:00pm - 7:00pm</td>
@@ -215,7 +215,7 @@
                                     <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
-                                    <td><a href="course_info.aspx">Soccer</a></td>
+                                    <td><a href="course_info.aspx?detail=6">Soccer</a></td>
                                     <td>Jun. 20 - Jul. 30</td>
                                     <td>T,Th,Sat</td>
                                     <td>2:00pm - 4:30pm</td>
@@ -225,7 +225,7 @@
                                     <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$200</a></td>
                                 </tr>
                                 <tr >
-                                    <td><a href="course_info.aspx">Basketball</a></td>
+                                    <td><a href="course_info.aspx?detail=6">Basketball</a></td>
                                     <td>Jun. 19 - Jul. 20</td>
                                     <td>Mo,Tu</td>
                                     <td>5:00pm - 7:00pm</td>
@@ -235,7 +235,7 @@
                                     <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
-                                    <td><a href="course_info.aspx">swimming</a></td>
+                                    <td><a href="course_info.aspx?detail=6">swimming</a></td>
                                     <td>Jun. 19 - Jul. 20</td>
                                     <td>Mo,Tu</td>
                                     <td>5:00pm - 7:00pm</td><td>10+</td>
@@ -244,7 +244,7 @@
                                     <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
-                                    <td><a href="course_info.aspx">Soccer</a></td>
+                                    <td><a href="course_info.aspx?detail=6">Soccer</a></td>
                                     <td>Jun. 19 - Jul. 20</td>
                                     <td>Mo,Tu</td>
                                     <td>5:00pm - 7:00pm</td>
