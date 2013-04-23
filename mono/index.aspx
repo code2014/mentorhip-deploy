@@ -30,7 +30,7 @@
         <div class="span4">
           <div class="categories" style=" background: url('assets/img/categories/1.jpg') repeat scroll 50% 50% transparent;">
             <div class="categoriesNameBackground">
-        				<h3 class="categoriesName">Sports>
+        				<h3 class="categoriesName">Sports</h3>
         		</div>
         		<div class="categoriesNameBackground2">
               <ul>
