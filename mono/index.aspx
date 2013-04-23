@@ -116,7 +116,7 @@
       </div>
     </div>
     <div class="container-featuredClass">
-    <h3>Featured Activities </h3>
+    <h3>Featured Provides </h3>
       <div class="row-fluid">
         <div class="span3">
           <div class="featured img-polaroid">
