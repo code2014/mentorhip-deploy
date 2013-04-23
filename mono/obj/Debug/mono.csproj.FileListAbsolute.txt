@@ -17,3 +17,8 @@ C:\Users\Suhan\Documents\GitHub\mentorhip-deploy\mono\bin\mono.pdb
 C:\Users\Suhan\Documents\GitHub\mentorhip-deploy\mono\obj\Debug\mono.csprojResolveAssemblyReference.cache
 C:\Users\Suhan\Documents\GitHub\mentorhip-deploy\mono\obj\Debug\mono.dll
 C:\Users\Suhan\Documents\GitHub\mentorhip-deploy\mono\obj\Debug\mono.pdb
+C:\Users\Pi\Documents\GitHub\mentorhip-deploy\mono\bin\mono.dll
+C:\Users\Pi\Documents\GitHub\mentorhip-deploy\mono\bin\mono.pdb
+C:\Users\Pi\Documents\GitHub\mentorhip-deploy\mono\obj\Debug\mono.csprojResolveAssemblyReference.cache
+C:\Users\Pi\Documents\GitHub\mentorhip-deploy\mono\obj\Debug\mono.dll
+C:\Users\Pi\Documents\GitHub\mentorhip-deploy\mono\obj\Debug\mono.pdb
