@@ -1,7 +1,7 @@
 <%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="search_provider.aspx.cs" Inherits="mono.search_result_provider" %>
 
 <asp:Content runat="server" id="BodyContent" ContentPlaceHolderID="contentPlaceHolder">
- <div id="mainBody">
+ <div class="other_body">
 
         <div class="container">
         
@@ -102,12 +102,12 @@
                     </div>
                     <div class="row">
                         <div class="span2 ">
-                            <img src="assets/images/provider/northparkdistrict.jpg" width="200" height="100" />
+                            <img src="assets/img/provider/northparkdistrict.jpg" width="200" height="100" />
 
 
                             <div class="pagination-centered">
-                                <a href="course_info.aspx"><h7>North Park District</h7></a>
-                                <a class="btn btn-success btn-small btn-block" href="#">stars!!!</a>
+                                <a href="provider_details.aspx"><h7>North Park District</h7></a>
+                                <a class="btn btn-success btn-small btn-block" href="provider_details.aspx">stars!!!</a>
                             </div>
                             <p class="small"><font size="1" face="verdana" >
                             The purpose of the club is to provide an environment where young athletes can engage in healthy soccer competition...
@@ -134,7 +134,7 @@
                                     <td>8-12</td>
                                     <td>8</td>
                                     <td>12</td>
-                                    <td><a class="btn btn-success btn-small btn-block" href="#">$360</a></td>
+                                    <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
                                     <td><a href="course_info.aspx">Soccer</a></td>
@@ -144,7 +144,7 @@
                                     <td>15+</td>
                                     <td>8</td>
                                     <td>12</td>
-                                    <td><a class="btn btn-success btn-small btn-block" href="#">$200</a></td>
+                                    <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$200</a></td>
                                 </tr>
                                 <tr >
                                     <td><a href="course_info.aspx">Basketball</a></td>
@@ -154,7 +154,7 @@
                                     <td><10</td>
                                     <td>8</td>
                                     <td>12</td>
-                                    <td><a class="btn btn-success btn-small btn-block" href="#">$360</a></td>
+                                    <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
                                     <td><a href="course_info.aspx">swimming</a></td>
@@ -163,7 +163,7 @@
                                     <td>5:00pm - 7:00pm</td><td>10+</td>
                                     <td>8</td>
                                     <td>12</td>
-                                    <td><a class="btn btn-success btn-small btn-block" href="#">$360</a></td>
+                                    <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
                                     <td><a href="course_info.aspx">Soccer</a></td>
@@ -173,19 +173,19 @@
                                     <td>8-12</td>
                                     <td>8</td>
                                     <td>12</td>
-                                    <td><a class="btn btn-success btn-small btn-block" href="#">$360</a></td>
+                                    <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                             </table>
                         </div>
                     </div>
                     <div class="row">
                         <div class="span2 ">
-                            <img src="assets/images/provider/worldsoccer.jpg" width="200" height="100" />
+                            <img src="assets/img/provider/worldsoccer.jpg" width="200" height="100" />
 
 
                             <div class="pagination-centered">
-                                <a href="course_info.aspx"><h7>World Wide Soccer Club</h7></a>
-                                <a class="btn btn-success btn-small btn-block" href="#">stars!!!</a>
+                                <a href="provider_details.aspx"><h7>World Wide Soccer Club</h7></a>
+                                <a class="btn btn-success btn-small btn-block" href="provider_details.aspx">stars!!!</a>
                             </div>
                             <p class="small"><font size="1" face="verdana" >
                             The purpose of the club is to provide an environment where young athletes can engage in healthy soccer competition...
@@ -212,7 +212,7 @@
                                     <td>8-12</td>
                                     <td>8</td>
                                     <td>12</td>
-                                    <td><a class="btn btn-success btn-small btn-block" href="#">$360</a></td>
+                                    <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
                                     <td><a href="course_info.aspx">Soccer</a></td>
@@ -222,7 +222,7 @@
                                     <td>15+</td>
                                     <td>8</td>
                                     <td>12</td>
-                                    <td><a class="btn btn-success btn-small btn-block" href="#">$200</a></td>
+                                    <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$200</a></td>
                                 </tr>
                                 <tr >
                                     <td><a href="course_info.aspx">Basketball</a></td>
@@ -232,7 +232,7 @@
                                     <td><10</td>
                                     <td>8</td>
                                     <td>12</td>
-                                    <td><a class="btn btn-success btn-small btn-block" href="#">$360</a></td>
+                                    <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
                                     <td><a href="course_info.aspx">swimming</a></td>
@@ -241,7 +241,7 @@
                                     <td>5:00pm - 7:00pm</td><td>10+</td>
                                     <td>8</td>
                                     <td>12</td>
-                                    <td><a class="btn btn-success btn-small btn-block" href="#">$360</a></td>
+                                    <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                                 <tr >
                                     <td><a href="course_info.aspx">Soccer</a></td>
@@ -251,7 +251,7 @@
                                     <td>8-12</td>
                                     <td>8</td>
                                     <td>12</td>
-                                    <td><a class="btn btn-success btn-small btn-block" href="#">$360</a></td>
+                                    <td><a class="btn btn-success btn-small btn-block" href="purchase.aspx">$360</a></td>
                                 </tr>
                             </table>
                         </div>
