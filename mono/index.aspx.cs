@@ -10,6 +10,11 @@ namespace mono
             Image1.ImageUrl = "~/imgHandler.ashx?imID=4";
         }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/search_provider.aspx");
+        }
+
 	}
 }
 

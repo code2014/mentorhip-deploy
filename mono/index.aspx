@@ -13,12 +13,12 @@
             </div>
             <div class="carousel-search">
                 <h1>Find the best activities!</h1>
-                <h4>classes &nbsp camps &nbsp programs &nbsp mentors</h4>
+                <h4>clasclasses &nbsp camps &nbsp programs &nbsp mentors</h4>
                 <div class="form-inline">
                   <asp:TextBox ID="TextBox1" runat="server" CssClass="input-xlarge" placeholder="What kind of course do you want?" />
                   <asp:TextBox ID="TextBox2" runat="server" CssClass="input-xlarge" placeholder="How many miles from..." /> 
-                  <asp:TextBox ID="TextBox3" runat="server" CssClass="input-medium" placeholder="...which City?" /> 
-                  <asp:Button ID="Button1" runat="server" Text="Search" class="btn"  />
+                  <asp:TextBox ID="TextBox3" runat="server" CssClass="input-medium"  placeholder="...which City?" /> 
+                  <asp:Button ID="Button1" runat="server" Text="Search" class="btn" OnClick="Button1_Click"/>
            
                 </div>
             </div>
@@ -30,7 +30,7 @@
         <div class="span4">
           <div class="categories" style=" background: url('assets/img/categories/1.jpg') repeat scroll 50% 50% transparent;">
             <div class="categoriesNameBackground">
-        				<h3 class="categoriesName">Sports</h3>
+        				<h3 class="categoriesName">Sports>
         		</div>
         		<div class="categoriesNameBackground2">
               <ul>
