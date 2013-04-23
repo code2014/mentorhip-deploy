@@ -213,7 +213,7 @@
                                         <th>Price</th>
                                     </tr>
                                     <tr >
-                                        <td><a href="course_info.aspx?detail=1">Soccer(8-12)</a></td>
+                                        <td><a href="course_info.aspx?detail=6">Soccer(8-12)</a></td>
                                         <td>Jun. 19 - Jul. 20</td>
                                         <td>Mon,Tues</td>
                                         <td>5:00pm - 7:00pm</td>
@@ -244,7 +244,7 @@
                                         <th>Price</th>
                                     </tr>
                                     <tr >
-                                        <td><a href="course_info.aspx?detail=1">Soccer(8-12)</a></td>
+                                        <td><a href="course_info.aspx?detail=6">Soccer(8-12)</a></td>
                                         <td>Jun. 19 - Jul. 20</td>
                                         <td>Mon,Tues</td>
                                         <td>5:00pm - 7:00pm</td>
@@ -275,7 +275,7 @@
                                         <th>Price</th>
                                     </tr>
                                     <tr >
-                                        <td><a href="course_info.aspx?detail=1">Soccer(8-12)</a></td>
+                                        <td><a href="course_info.aspx?detail=6">Soccer(8-12)</a></td>
                                         <td>Jun. 19 - Jul. 20</td>
                                         <td>Mon,Tues</td>
                                         <td>5:00pm - 7:00pm</td>
@@ -307,7 +307,7 @@
                                         <th>Price</th>
                                     </tr>
                                     <tr >
-                                        <td><a href="course_info.aspx?detail=1">Soccer(8-12)</a></td>
+                                        <td><a href="course_info.aspx?detail=6">Soccer(8-12)</a></td>
                                         <td>Jun. 19 - Jul. 20</td>
                                         <td>Mon,Tues</td>
                                         <td>5:00pm - 7:00pm</td>
@@ -339,7 +339,7 @@
                                         <th>Price</th>
                                     </tr>
                                     <tr >
-                                        <td><a href="course_info.aspx?detail=1">Soccer(8-12)</a></td>
+                                        <td><a href="course_info.aspx?detail=6">Soccer(8-12)</a></td>
                                         <td>Jun. 19 - Jul. 20</td>
                                         <td>Mon,Tues</td>
                                         <td>5:00pm - 7:00pm</td>
@@ -371,7 +371,7 @@
                                         <th>Price</th>
                                     </tr>
                                     <tr >
-                                        <td><a href="course_info.aspx?detail=1">Soccer(8-12)</a></td>
+                                        <td><a href="course_info.aspx?detail=6">Soccer(8-12)</a></td>
                                         <td>Jun. 19 - Jul. 20</td>
                                         <td>Mon,Tues</td>
                                         <td>5:00pm - 7:00pm</td>
