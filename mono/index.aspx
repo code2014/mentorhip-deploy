@@ -128,14 +128,14 @@
         <div class="span3">   
           <div class=" featured img-polaroid">
               <a href="provider_details.aspx"><img src="assets/img/carousel/1.jpg" alt=""/></a>
-              <h5>Chicago Swim School</h5>
+              <h5>Chicago Math School</h5>
               <h4><a class="btn" href="provider_details.aspx">VIEW</a> <span class="pull-right">$222.00</span></h4>
           </div>
         </div>
         <div class="span3">
           <div class="featured img-polaroid">
               <a  href="provider_details.aspx"><img src="assets/img/carousel/3.jpg" alt=""/></a>
-              <h5>Big Blue Swim</h5>
+              <h5>Dolphin Swim School</h5>
               <h4><a class="btn" href="provider_details.aspx">VIEW</a> <span class="pull-right">$222.00</span></h4>
           </div>
         </div>
